@@ -1,0 +1,199 @@
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.topBar {
+    background-color: #434343;
+    max-height: 200px;
+    padding: 5px 10px 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-3 {
+    display: flex;
+    flex-basis: 20%;
+}
+
+.myName {
+    display: flex;
+    background-color: hotpink;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    width: 30%;
+}
+
+.myName h1 {
+    color: #000000;
+    font-size: 44px;
+    margin: 0;
+}
+
+
+h2 {
+    line-height: 16px;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: space-between;
+}
+
+.links a {
+    color: aquamarine;
+    font-weight: bolder;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 10px;
+    border-bottom: aquamarine solid 6px;
+    padding: 16px 16px 0px 16px;
+}
+
+.topBannerContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background-image: url(images/header.jpeg);
+}
+
+.centerContent {
+    display: flex;
+    align-self: center;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 600px;
+    padding: 13px;
+    background-color: pink;
+}
+
+.subtitle h2 {
+    align-items: center;
+    color: #000000;
+}
+
+img {
+    display: block;
+    transform: scale(0.3);
+    align-content: space-between;
+}
+
+.page {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.flex-container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 9px;
+}
+
+.content {
+    display: flex;
+    flex-basis: 80%;
+    padding: 22px;
+    border-left: hotpink solid 3px;
+    justify-content: space-around;
+    gap: 22px;
+}
+
+.examples {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.row-one div {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    border: hotpink solid 3px;
+    background-color: pink;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.row-one,
+.row-two,
+.row-three {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 22px;
+}
+
+.row-two div,
+.row-three div {
+    display: flex;
+    flex-basis: 50%;
+    height: 200px;
+    align-items: center;
+    border: 3px solid aquamarine;
+    background-color: pink;
+    justify-content: center;
+}
+
+
+h3 {
+    flex: 1;
+    color: hotpink;
+    /* border-right: hotpink solid 3px; */
+    font-size: 50px;
+    padding-right: 20px;
+    text-align: right;
+    margin: 9px;
+}
+
+p {
+    font-size: 12px;
+    background-color: pink;
+    color: #434343;
+    display: inline;
+    text-align: right;
+    padding: 10px;
+}
+
+/* h4 {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 13px;
+    color: #000000;
+    padding: 10px;
+    background-color: pink;
+    border: 3px solid aquamarine;
+} */
+
+#list {
+    line-height: 2;
+    font-size: 16px;
+    list-style: none;
+}
+
+.myLinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+    align-content: space-between;
+}
+
+.myLinks a {
+    color: hotpink;
+    font-weight: bolder;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 10px;
+    border-bottom: hotpink solid 6px;
+    padding: 16px 16px 0px 16px;
+}
