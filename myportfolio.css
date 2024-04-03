@@ -1,9 +1,13 @@
 * {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .topBar {
-    background-color: #434343;
+    background-color: pink;
     max-height: 200px;
     padding: 5px 10px 10px 0;
     display: flex;
@@ -18,17 +22,18 @@
 
 .myName {
     display: flex;
-    background-color: hotpink;
+    background-color: rgba(255, 127, 127, 0.473);
     justify-content: flex-start;
     align-items: center;
-    padding-left: 10px;
-    width: 30%;
+    padding: 5px 0px 6px 16px;
+    width: 23%;
 }
 
 .myName h1 {
-    color: #000000;
+    color: #434343;
     font-size: 44px;
     margin: 0;
+    text-align: center;
 }
 
 
@@ -44,12 +49,11 @@ h2 {
 }
 
 .links a {
-    color: aquamarine;
-    font-weight: bolder;
+    color: rgb(255, 127, 127);
     font-size: 16px;
     text-decoration: none;
     margin-right: 10px;
-    border-bottom: aquamarine solid 6px;
+    border-bottom: hotpink solid 6px;
     padding: 16px 16px 0px 16px;
 }
 
@@ -76,13 +80,25 @@ h2 {
 
 .subtitle h2 {
     align-items: center;
-    color: #000000;
+    color: hotpink;
+    font-size: 16px;
 }
 
 img {
     display: block;
-    transform: scale(0.3);
+    height: 222px;
     align-content: space-between;
+}
+
+.bio {
+    width: 77%;
+    margin: 0;
+}
+
+p.bio {
+    font-size: 16px;
+    line-height: 2;
+    text-align: justify;
 }
 
 .page {
@@ -102,11 +118,14 @@ img {
 
 .content {
     display: flex;
-    flex-basis: 80%;
+    flex-basis: 77%;
     padding: 22px;
     border-left: hotpink solid 3px;
     justify-content: space-around;
-    gap: 22px;
+}
+
+.content>nav>a {
+    margin: 10px;
 }
 
 .examples {
@@ -115,12 +134,12 @@ img {
     flex-direction: column;
 }
 
-.row-one div {
+div.row-one {
     display: flex;
     height: 200px;
     align-items: center;
-    border: hotpink solid 3px;
-    background-color: pink;
+    /* border: hotpink solid 3px; */
+    background-image: url(images/floral.jpeg);
     justify-content: center;
     margin-bottom: 5px;
 }
@@ -130,14 +149,15 @@ img {
 .row-three {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    /* width: 100%; */
     font-size: 22px;
+    justify-content: space-around;
 }
 
 .row-two div,
 .row-three div {
     display: flex;
-    flex-basis: 50%;
+    width: 46%;
     height: 200px;
     align-items: center;
     border: 3px solid aquamarine;
@@ -145,11 +165,14 @@ img {
     justify-content: center;
 }
 
+.project {
+    margin: 10px 0;
+}
+
 
 h3 {
     flex: 1;
     color: hotpink;
-    /* border-right: hotpink solid 3px; */
     font-size: 50px;
     padding-right: 20px;
     text-align: right;
@@ -157,7 +180,8 @@ h3 {
 }
 
 p {
-    font-size: 12px;
+    font-size: 16px;
+    line-height: 1.6;
     background-color: pink;
     color: #434343;
     display: inline;
@@ -165,27 +189,15 @@ p {
     padding: 10px;
 }
 
-/* h4 {
-    flex-grow: 1;
-    text-align: center;
-    font-size: 13px;
-    color: #000000;
-    padding: 10px;
-    background-color: pink;
-    border: 3px solid aquamarine;
-} */
-
-#list {
-    line-height: 2;
-    font-size: 16px;
-    list-style: none;
+div.project {
+    color: #434343;
 }
 
 .myLinks {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: stretch;
-    align-content: space-between;
+    width: 100%;
 }
 
 .myLinks a {

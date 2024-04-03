@@ -8,21 +8,21 @@
 </head>
 
 <body>
-    <header class="topBar">
+    <header class="topBar" id="top">
         <div class="myName">
             <h1>Annie Schalnat</h1>
         </div>
         <nav class="links">
-            <a id="About Me" href="">
+            <a id="About Me" href="#about-me">
                 <h2>About Me</h2>
             </a>
-            <a id="Work" href="">
+            <a id="Work" href="#work">
                 <h2>My Work</h2>
             </a>
-            <a id="Contact Me" href="">
+            <a id="Contact Me" href="#contact">
                 <h2>Contact Me</h2>
             </a>
-            <a id="Resume" href="">
+            <a id="Resume" href="" target="_blank">
                 <h2>Resume</h2>
             </a>
         </nav>
@@ -31,49 +31,60 @@
     <div class="topBannerContent">
         <div class="centerContent"></div>
         <div class="subtitle">
-            <h2>Cool Subtitle</h2>
+            <h2>My favorite color is pink 💗</h2>
         </div>
     </div>
 
     <div class="page">
-        <div class="flex-container">
+        <div class="flex-container" id="about-me">
             <div class="col-3">
                 <h3>About Me</h3>
             </div>
             <div class="content">
                 <img src="images/face.jpeg">
-                <p>This section is about me.</p>
+                <p class="bio">I graduated in 2023 with a Bachelor's of Science from Arizona State
+                    University, 👩‍🎓 <br />Where my favorite areas of research were ~ and continue to be ~
+                    human-machine
+                    relationships and
+                    ethical AI
+                    development. <br />I endorse posthumanist theory, rejecting anthropocentrism in all forms,
+                    but especially in the design of service robots.<br /> Since graduation, I have
+                    relocated to Denver, CO where I love spending time in the snow & sun with my boyfriend and our
+                    puppy.</br> When I'm not coding or solving puzzles, I enjoy cooking yummy meals 🥟, traveling 🛩️,
+                    exploring 🦋, the mountains 🏔️,<br />gardening 🌸, reading
+                    fantasy novels ⚔️, video games 🎮, and studying geology 🗿.</p>
             </div>
         </div>
 
-        <div class="flex-container">
+        <div class="flex-container" id="work">
             <div class="col-3">
                 <h3>My Work</h3>
             </div>
             <div class="examples content">
-                <div class="row-one">My Blog</div>
-                <a href="blog.html"></a>
+                <a href="https://google.com" target="_blank">
+                    <div class="row-one">My Blog</div>
+                </a>
                 <div class="row-two">
-                    <div>Project Two</div>
-                    <div>Project Three</div>
+                    <div class="project">Project Two</div>
+                    <div class="project">Project Three</div>
                 </div>
                 <div class="row-three">
-                    <div>Project 4</div>
-                    <div>Project 5</div>
+                    <div class="project">Project 4</div>
+                    <div class="project">Project 5</div>
                 </div>
             </div>
         </div>
 
-        <div class="flex-container">
+        <div class="flex-container" id="contact">
             <div class="col-3">
                 <h3>Contact Me</h3>
             </div>
             <div class="content">
                 <nav class="myLinks">
                     <a id="mobile" href="">
-                        <h2>My Phone Number</h2>
+                        <h2>Email</h2>
                     </a>
-                    <a id="site" href="">
+                    <a id="site" href="#top">
                         <h2>My Site</h2>
                     </a>
                     <a id="gitlink" href="">
