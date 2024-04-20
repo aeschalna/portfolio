@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Annie's Deployed Applications</title>
+    <!-- link to my style sheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- link to bulma css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="hero is-info is-medium">
+        <div class="hero-head mt-6">
+            <p class="title ml-6">Annie Schalnat</p>
+            <div id="navbar" class="navbar-menu">
+                <div class="navbar-end">
+                    <!-- <img src="assets/images/face.jpeg" alt="Image of Developer"> -->
+                </div>
+            </div>
+        </div>
+        <div class="hero-body mt-6">
+            <div class="container has-text-centered">
+                <p class="title mb-5">Welcome to my Portfolio!</p>
+                <p class="subtitle">I am 23, live in Denver, CO<br />& my favorite color is pink 💗</p>
+            </div>
+        </div>
+        <div class="hero-foot">
+            <nav class="tabs">
+                <div class="navbar-end">
+                    <ul>
+                        <li><a class="navbar-item"> About Me </a></li>
+                        <li><a class="navbar-item"> My Work </a></li>
+                        <li><a class="navbar-item"> Contact Me </a></li>
+                        <li><a class="navbar-item is-active"> Resume </a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- create top bar with my name and links to content sections -->
+    <!-- <header class="topBar" id="top">
+        <div class="myName">
+            <h1>Annie Schalnat</h1>
+        </div>
+        <nav class="links">
+            <a id="About Me" href="#about-me">
+                <h2>About Me</h2>
+            </a>
+            <a id="Work" href="#work">
+                <h2>My Work</h2>
+            </a>
+            <a id="Contact Me" href="#contact">
+                <h2>Contact Me</h2>
+            </a>
+            <a id="Resume" href="" target="_blank">
+                <h2>Resume</h2>
+            </a>
+        </nav>
+    </header> -->
+
+    <!-- <div class="topBannerContent">
+        <!-- background image applied in css -->
+    <!-- <div class="centerContent"></div>
+        <!-- div used to keep position of subtitle -->
+    <!-- <div class="subtitle">
+            <h2>I am 23, live in Denver, CO<br />& my favorite color is pink 💗</h2>
+        </div>
+    </div> -->
+
+    <div class="fixed-grid has-3-cols">
+        <div class="grid mt-5">
+            <div class="cell has-text-centered is-size-2 ml-6">About Me</div>
+            <div class="cell is-size-1-mobile">
+                <img src="assets/images/face.jpeg" alt="Image of Developer">
+            </div>
+            <div class="cell has-text-left mr-6" id="bio">
+                <p class="bio">I graduated in 2023 with a Bachelor's of Science from Arizona State
+                    University 👩‍🎓 <br />My favorite areas of research are human-machine relationships and
+                    ethical AI development. <br />I endorse posthumanist theory, opposing anthropocentrism in all forms;
+                    but especially in the design of service robots.<br /> Since graduation, I have relocated to Denver,
+                    CO
+                    where I love living with four seasons, snow & sunshine.</br> When I'm not coding or solving
+                    puzzles,</br>
+                    I enjoy gardening 🌸, fantasy novels ⚔️, </br>cooking 🥟, adventuring, video games 🎮, </br>studying
+                    geology &
+                    bioarchaeology🗿.</p>
+            </div>
+            <div class="cell has-text-centered is-size-2 ml-6 mt-6">My Work</div>
+            <div class="cell is-col-start-2 has-text-centered mt-3 p-3 has-background-primary">
+                <a src="https://aeschalna.github.io/SEOCodeRefactor/">SEO Code Refactor</a>
+            </div>
+            <div class="cell is-col-start-3 mt-3 p-3 has-text-centered has-background-primary">
+                <a src="https://aeschalna.github.io/Mod-4-Blog/">View my Blog!</a>
+            </div>
+            <div class="cell is-col-start-2 mt-3 p-4 has-text-centered has-background-info">
+                <a src="https://aeschalna.github.io/5Day-WeatherForecast/">Fetch Weather API</a>
+            </div>
+            <div class="cell is-col-start-3 mt-3 p-4 has-text-centered has-background-info">
+                <a src="https://aeschalna.github.io/TaskBoard/">Task Board</a>
+            </div>
+            <div class="cell has-text-centered is-size-2 ml-6">Contact Me</div>
+            <div class="cell has-text-centered is-col-start-2 is-span-2 is-size-3">
+                <ul>
+                    <!-- <li><a class="navbar-item" href="aeschalna@gmail.com"> Email Me: aeschalna@gmail.com </a>
+                    </li> -->
+                    <li><a class="navbar-item" href="https://github.com/aeschalna"> GitHub Repository! </a>
+                    </li>
+                    <li><a class="navbar-item" href="https://open.spotify.com/user/anniesch7"> Spotify </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 
+    <div class="page"> -->
+    <!-- main content section -->
+    <!-- <div class="flex-container" id="about-me"> -->
+    <!-- column on left holds section title -->
+    <!-- <div class="column">
+                <h3>About Me</h3>
+            </div> -->
+    <!-- column on right holds section content -->
+    <!-- <div class="content"> -->
+    <!-- face card -->
+    <!-- <img src="assets/images/face.jpeg">
+                <p class="bio">I graduated in 2023 with a Bachelor's of Science from Arizona State
+                    University, 👩‍🎓 <br />Where my favorite areas of research were ~ and continue to be ~
+                    human-machine
+                    relationships and
+                    ethical AI
+                    development. <br />I support posthumanist theory, rejecting anthropocentrism in all forms,
+                    but especially in the design of service robots.<br /> Since graduation, I have
+                    relocated to Denver, CO where I love spending time in the snow & sun with my boyfriend and our
+                    puppy.</br> When I'm not coding or solving puzzles, I enjoy cooking yummy meals 🥟, traveling 🛩️,
+                    exploring 🦋, the mountains 🏔️,<br />gardening 🌸, reading
+                    fantasy novels ⚔️, video games 🎮, studying geology & bioarchaeology🗿.</p>
+            </div>
+        </div> -->
+    <!-- second row -->
+    <!-- <div class="flex-container" id="work"> -->
+    <!-- column on left holds section title -->
+    <!-- <div class="col-3">
+                        <h3>My Work</h3>
+                    </div>
+                    <div class="examples content"> -->
+    <!-- column on right holds section content -->
+    <!-- <a href="https://aeschalna.github.io/Mod-4-Blog/" target="_blank"> -->
+    <!-- add link to deployed apllication (open in new page) -->
+    <!-- <div class="row-one">My Blog</div>
+                        </a>
+                        <div class="row-two">
+                            <a href="https://aeschalna.github.io/PayrollTracker/" target="_blank">
+                                <div class="project">Payroll Tracker</div>
+                            </a>
+                            <div class="project">
+                                <a href="https://aeschalna.github.io/SEOCodeRefactor/" target="_blank">
+                                    <div>SEO Code Refactor</div>
+                                </a>
+                            </div>
+                            <div class="row-three">
+                                <div class="project">Project 4</div>
+                                <div class="project">Project 5</div>
+                            </div>
+                        </div>
+                    </div> -->
+    <!-- <section class="hero is-info is-small">
+        <div </section>
+            <div class="flex-container" id="contact">
+                <div class="col-3">
+                    <h3>Contact Me</h3>
+                </div>
+                <div class="content">
+                    <nav class="myLinks">
+                        <a id="mobile" href="">
+                            <h2>Email</h2>
+                        </a>
+                        <a id="site" href="#top">
+                            <h2>My Site</h2>
+                        </a>
+                        <a id="gitlink" href="">
+                            <h2>Github</h2>
+                        </a>
+                        <a id="resume" href="">
+                            <h2>Resume</h2>
+                        </a>
+                        <a id="Spotify" href="">
+                            <h2>Spotify</h2>
+                        </a>
+                    </nav>
+                </div>
+            </div> -->
+
+</body>
+
+</html>
